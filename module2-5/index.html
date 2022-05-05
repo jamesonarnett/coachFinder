@@ -17,18 +17,19 @@
       <h1>Vue Dynamic Styling</h1>
     </header>
     <section id="styling">
-      <div
-        @click="boxSelected('A')"
-        class="demo"
-        :class="{ active: boxASelected}"
-      ></div>
+      <div @click="boxSelected('A')" class="demo" :class="boxAClasses"></div>
       <div
         @click="boxSelected('B')"
-        :class=" boxBSelected ?'demo active' : 'demo'"
+        class="demo"
+        :class="{active: boxBSelected}"
       ></div>
       <div
         @click="boxSelected('C')"
         :class=" boxCSelected ?'demo active' : 'demo'"
+      ></div>
+      <div
+        @click="boxSelected('D')"
+        :class="['demo', {active: boxDSelected}]"
       ></div>
     </section>
   </body>
