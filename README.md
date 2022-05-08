@@ -26,6 +26,25 @@ Throw away repo for learning vue basics
 
 # Module4
 
-Monster Slayer a review of the previous 2 modules!
+<li>Monster Slayer a review of the previous 2 modules!</li>
 
 <img src="./module4-MonsterSlayer/monsterSlayer.png" width="400px" height="500px"/>
+
+# Module5
+
+<ul>
+  <li>Vue Lifecycle</li>
+  <li>Multiple Apps</li>
+  <li>How Vue updates the DOM</li>
+  <li>Vue Hooks</li>
+</ul>
+
+# Module6
+
+<ul>
+  <li>Vue Component Introduction</li>
+  <li>Custom HTML Tags</li>
+  <li>Much more excited seeing this</li>
+</ul>
+
+
