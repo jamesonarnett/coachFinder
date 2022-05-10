@@ -1,5 +1,5 @@
 # vuePlayground
-Throw away repo for learning vue basics
+Vue - The Complete Guide - <a href="https://www.udemy.com/course/vuejs-2-the-complete-guide/">Udemy Course</a> by Maximilian Schwarzmüller
 
 
 # Module2
@@ -47,4 +47,21 @@ Throw away repo for learning vue basics
   <li>Much more excited seeing this</li>
 </ul>
 
+# Module7
+
+<ul>
+  <li>Vue CLI</li>
+  <li>New App Structure</li>
+  <li>Creating components 2.0</li>
+  <li>Single file components</li>
+</ul>
+
+# Module8
+
+<ul>
+  <li>Intro to Props</li>
+  <li>Unidirectional Data flow</li>
+  <li>Dynamic Props // Emitting Custom Events</li>
+  <li></li>
+</ul>
 
