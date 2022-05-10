@@ -62,6 +62,7 @@ Vue - The Complete Guide - <a href="https://www.udemy.com/course/vuejs-2-the-com
   <li>Intro to Props</li>
   <li>Unidirectional Data flow</li>
   <li>Dynamic Props // Emitting Custom Events</li>
-  <li></li>
+  <li>Component Communication</li>
+  <li>Provide && Inject</li>
 </ul>
 

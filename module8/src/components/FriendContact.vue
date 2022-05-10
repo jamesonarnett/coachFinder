@@ -15,12 +15,12 @@
         {{ emailAddress }}
       </li>
     </ul>
+    <button @click="$emit('delete', id)">Delete</button>
   </li>
 </template>
 
 <script>
 export default {
-  // props: ["name", "phoneNumber", "emailAddress", "isFavorite"],
   props: {
     id: {
       type: String,
@@ -47,15 +47,20 @@ export default {
       // },
     },
   },
+  emits: ["toggle-favorite", "delete"],
+  // emits: {
+  //   "toggle-favorite": function (id) {
+  //     if (id) {
+  //       return true;
+  //     } else {
+  //       console.warn("Missing ID in toggle-favorite");
+  //       return false;
+  //     }
+  //   },
+  // },
   data() {
     return {
       detailsAreVisible: false,
-      // friend: {
-      //   id: "manuel",
-      //   name: "Manuel Lorenz",
-      //   phone: "0123 45678 90",
-      //   email: "manuel@localhost.com",
-      // },
     };
   },
   methods: {
@@ -65,6 +70,9 @@ export default {
     toggleFavorite() {
       this.$emit("toggle-favorite", this.id);
     },
+    // deleteFriend() {
+    //   this.$emit("delete-friend", this.id);
+    // },
   },
 };
 </script>
