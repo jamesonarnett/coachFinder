@@ -66,3 +66,13 @@ Vue - The Complete Guide - <a href="https://www.udemy.com/course/vuejs-2-the-com
   <li>Provide && Inject</li>
 </ul>
 
+# Module9
+
+<ul>
+  <li>Global vs Local components</li>
+  <li>Slots</li>
+  <li>Scoped styles // Slot scope</li>
+  <li></li>
+  <li></li>
+</ul>
+
