@@ -72,7 +72,15 @@ Vue - The Complete Guide - <a href="https://www.udemy.com/course/vuejs-2-the-com
   <li>Global vs Local components</li>
   <li>Slots</li>
   <li>Scoped styles // Slot scope</li>
-  <li></li>
-  <li></li>
+  <li>Scoped Slots</li>
+  <li>Teleporting elements</li>
 </ul>
+
+# Module10
+
+<li>A review and practice project covering the previous modules</li>
+
+<img src="./module10-LearningResourcesApp/rememberMe.png" width="400px" height="500px"/>
+<img src="./module10-LearningResourcesApp/rememberMeError.png" width="400px" height="500px"/>
+
 
