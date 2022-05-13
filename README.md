@@ -83,4 +83,12 @@ Vue - The Complete Guide - <a href="https://www.udemy.com/course/vuejs-2-the-com
 <img src="./module10-LearningResourcesApp/rememberMe.png" width="400px" height="500px"/>
 <img src="./module10-LearningResourcesApp/rememberMeError.png" width="400px" height="500px"/>
 
+# Module11
 
+<ul>
+  <li>v-model and inputs</li>
+  <li>v-model modifiers</li>
+  <li>Dropdowns, checkboxes, and radio buttons</li>
+  <li>Custom control components</li>
+  <li>V-model with custom components</li>
+</ul>
