@@ -92,3 +92,12 @@ Vue - The Complete Guide - <a href="https://www.udemy.com/course/vuejs-2-the-com
   <li>Custom control components</li>
   <li>V-model with custom components</li>
 </ul>
+
+# Module12
+
+<ul>
+  <li>Firebase backend for http requests</li>
+  <li>verbs review</li>
+  <li>Fetch "vs" axios</li>
+  <li>Same ole same ole here // good review</li>
+</ul>
