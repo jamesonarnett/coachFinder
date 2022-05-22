@@ -101,3 +101,12 @@ Vue - The Complete Guide - <a href="https://www.udemy.com/course/vuejs-2-the-com
   <li>Fetch "vs" axios</li>
   <li>Same ole same ole here // good review</li>
 </ul>
+
+# Module13
+
+<ul>
+  <li>Router setup && navigating with router-link</li>
+  <li>Dynamic Segments (passing data with route params)</li>
+  <li></li>
+  <li></li>
+</ul>
