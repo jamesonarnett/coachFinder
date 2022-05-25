@@ -4,13 +4,13 @@
 
 <style scoped>
 h2 {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100vw;
   background-color: black;
   color: white;
   text-align: center;
-  margin: 0;
+  margin: 0rem;
   padding: 1rem;
 }
 </style>

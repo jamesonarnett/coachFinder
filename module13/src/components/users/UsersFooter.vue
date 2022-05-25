@@ -4,7 +4,7 @@
 
 <style scoped>
 h2 {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100vw;
   background-color: #11005c;

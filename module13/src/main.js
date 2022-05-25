@@ -16,6 +16,7 @@ const router = createRouter({
     {
       name: 'teams',
       path: '/teams',
+      //  meta: { needsAuth: true },
       components: { default: TeamsList, footer: TeamsFooter },
       children: [
         {
@@ -26,7 +27,15 @@ const router = createRouter({
         },
       ], // /teams/t1
     },
-    { path: '/users', components: { default: UsersList, footer: UsersFooter } },
+    {
+      path: '/users',
+      components: { default: UsersList, footer: UsersFooter },
+      beforeEnter(to, from, next) {
+        console.log('Users BeforeEnter');
+        console.log(to, from);
+        next();
+      },
+    },
     { path: '/:notFound(.*)', component: NotFound },
   ],
   linkActiveClass: 'active',
@@ -49,6 +58,11 @@ const router = createRouter({
 //   //   next({ name: 'team-members', params: { teamId: 't2' } });
 //   // }
 // });
+
+// router.afterEach((to, from) => {
+//   //sending analytics data
+//   //does not control UI
+// })
 
 const app = createApp(App);
 
