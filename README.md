@@ -1,6 +1,6 @@
 # vuePlayground
-Vue - The Complete Guide - <a href="https://www.udemy.com/course/vuejs-2-the-complete-guide/">Udemy Course</a> by Maximilian Schwarzmüller
 
+Vue - The Complete Guide - <a href="https://www.udemy.com/course/vuejs-2-the-complete-guide/">Udemy Course</a> by Maximilian Schwarzmüller
 
 # Module2
 
@@ -13,7 +13,6 @@ Vue - The Complete Guide - <a href="https://www.udemy.com/course/vuejs-2-the-com
   <li>CSS classes dynamically & array syntax</li>
 
 </ul>
-
 
 # Module3
 
@@ -97,7 +96,7 @@ Vue - The Complete Guide - <a href="https://www.udemy.com/course/vuejs-2-the-com
 
 <ul>
   <li>Firebase backend for http requests</li>
-  <li>verbs review</li>
+  <li>Http verbs review</li>
   <li>Fetch "vs" axios</li>
   <li>Same ole same ole here // good review</li>
 </ul>
@@ -107,6 +106,9 @@ Vue - The Complete Guide - <a href="https://www.udemy.com/course/vuejs-2-the-com
 <ul>
   <li>Router setup && navigating with router-link</li>
   <li>Dynamic Segments (passing data with route params)</li>
-  <li></li>
-  <li></li>
+  <li>Redirecting && Nested routes</li>
+  <li>Mulitple routes with names router-views</li>
+  <li>Scroll Behavior</li>
+  <li>Nav Guards</li>
+  <li>Route leaving Guards && Metadata</li>
 </ul>
