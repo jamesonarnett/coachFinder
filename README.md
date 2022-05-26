@@ -2,7 +2,7 @@
 
 Vue - The Complete Guide - <a href="https://www.udemy.com/course/vuejs-2-the-complete-guide/">Udemy Course</a> by Maximilian Schwarzmüller
 
-# Module2
+# Module2 -- Basics & Core Concepts
 
 <ul>
   <li>Interpolation and basic data binding</li>
@@ -14,7 +14,7 @@ Vue - The Complete Guide - <a href="https://www.udemy.com/course/vuejs-2-the-com
 
 </ul>
 
-# Module3
+# Module3 -- Rendering Conditional Content
 
 <ul>
   <li>Conditional Content</li>
@@ -23,13 +23,13 @@ Vue - The Complete Guide - <a href="https://www.udemy.com/course/vuejs-2-the-com
   <li>Rendering lists/conditional list & keys</li>
 </ul>
 
-# Module4
+# Module4 -- Monster Slayer
 
 <li>Monster Slayer a review of the previous 2 modules!</li>
 
 <img src="./module4-MonsterSlayer/monsterSlayer.png" width="400px" height="500px"/>
 
-# Module5
+# Module5 -- Vue LifeCycle && Dom Updating
 
 <ul>
   <li>Vue Lifecycle</li>
@@ -38,7 +38,7 @@ Vue - The Complete Guide - <a href="https://www.udemy.com/course/vuejs-2-the-com
   <li>Vue Hooks</li>
 </ul>
 
-# Module6
+# Module6 -- Component Intro
 
 <ul>
   <li>Vue Component Introduction</li>
@@ -46,7 +46,7 @@ Vue - The Complete Guide - <a href="https://www.udemy.com/course/vuejs-2-the-com
   <li>Much more excited seeing this</li>
 </ul>
 
-# Module7
+# Module7 -- Vue CLI
 
 <ul>
   <li>Vue CLI</li>
@@ -55,7 +55,7 @@ Vue - The Complete Guide - <a href="https://www.udemy.com/course/vuejs-2-the-com
   <li>Single file components</li>
 </ul>
 
-# Module8
+# Module8 -- Component Communication
 
 <ul>
   <li>Intro to Props</li>
@@ -65,7 +65,7 @@ Vue - The Complete Guide - <a href="https://www.udemy.com/course/vuejs-2-the-com
   <li>Provide && Inject</li>
 </ul>
 
-# Module9
+# Module9 -- Component Overview
 
 <ul>
   <li>Global vs Local components</li>
@@ -75,14 +75,14 @@ Vue - The Complete Guide - <a href="https://www.udemy.com/course/vuejs-2-the-com
   <li>Teleporting elements</li>
 </ul>
 
-# Module10
+# Module10 -- Learning Resources App
 
 <li>A review and practice project covering the previous modules</li>
 
 <img src="./module10-LearningResourcesApp/rememberMe.png" width="400px" height="500px"/>
 <img src="./module10-LearningResourcesApp/rememberMeError.png" width="400px" height="500px"/>
 
-# Module11
+# Module11 -- Forms
 
 <ul>
   <li>v-model and inputs</li>
@@ -92,7 +92,7 @@ Vue - The Complete Guide - <a href="https://www.udemy.com/course/vuejs-2-the-com
   <li>V-model with custom components</li>
 </ul>
 
-# Module12
+# Module12 -- Sending HTTP Requests
 
 <ul>
   <li>Firebase backend for http requests</li>
@@ -101,7 +101,7 @@ Vue - The Complete Guide - <a href="https://www.udemy.com/course/vuejs-2-the-com
   <li>Same ole same ole here // good review</li>
 </ul>
 
-# Module13
+# Module13 -- Routing
 
 <ul>
   <li>Router setup && navigating with router-link</li>
@@ -111,4 +111,12 @@ Vue - The Complete Guide - <a href="https://www.udemy.com/course/vuejs-2-the-com
   <li>Scroll Behavior</li>
   <li>Nav Guards</li>
   <li>Route leaving Guards && Metadata</li>
+</ul>
+
+# Module14 -- Animations
+
+<ul>
+  <li>Animation Basics</li>
+  <li>Transition Component</li>
+  <li>Javascript Transitions</li>
 </ul>
