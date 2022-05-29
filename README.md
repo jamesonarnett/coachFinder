@@ -120,3 +120,12 @@ Vue - The Complete Guide - <a href="https://www.udemy.com/course/vuejs-2-the-com
   <li>Transition Component</li>
   <li>Javascript Transitions</li>
 </ul>
+
+# Module15 -- VueX
+
+<ul>
+  <li>Global State Management</li>
+  <li>Connecting componenets to state</li>
+  <li>Mutations</li>
+  <li>Getters</li>
+</ul>
