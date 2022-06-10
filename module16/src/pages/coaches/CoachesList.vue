@@ -1,7 +1,15 @@
 <template>
   <section>FILTER</section>
 
-  <section>LIST of coaches</section>
+  <section>
+    <div class="controls">
+      <button>Refresh</button>
+      <router-link to="/register">Register as a Coach</router-link>
+    </div>
+    <ul>
+      LIST of coaches
+    </ul>
+  </section>
 </template>
 
 <script>
