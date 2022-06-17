@@ -2,7 +2,7 @@ export default {
   registerCoach(context, data) {
     const coachData = {
       //hardcode id temporarily
-      id: 'c3',
+      id: context.rootGetters.userId,
       firstName: data.first,
       lastName: data.last,
       description: data.desc,
