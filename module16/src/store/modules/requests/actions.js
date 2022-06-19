@@ -3,7 +3,7 @@ export default {
     const newRequest = {
       id: new Date().toISOString(),
       coachId: payload.coachId,
-      userEmail: payload.userEmail,
+      userEmail: payload.email,
       message: payload.message,
     };
     context.commit('addRequests', newRequest);
