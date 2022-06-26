@@ -70,14 +70,16 @@ export default {
         this.formIsValid = false;
       }
 
+      const actionPayload = {
+        email: this.email,
+        password: this.password,
+      };
+
       try {
         if (this.mode === 'login') {
-          //llllllllllllllllllllllllll
+          await this.$store.dispatch('auth/login', actionPayload);
         } else {
-          await this.$store.dispatch('auth/signup', {
-            email: this.email,
-            password: this.password,
-          });
+          await this.$store.dispatch('auth/signup', actionPayload);
         }
       } catch (error) {
         this.error = error.message || 'Failed to authenticate. Try again';
