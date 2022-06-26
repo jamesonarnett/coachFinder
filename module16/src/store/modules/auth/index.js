@@ -1,12 +1,14 @@
-import mutations from '../coaches/mutations';
-import actions from '../coaches/actions';
+import mutations from './mutations';
+import actions from './actions';
 import getters from './getters';
 
 export default {
+  namespaced: true,
   state() {
     return {
-      // temporary userId for testing
-      userId: 'c3',
+      userId: null,
+      token: null,
+      tokenExpiration: null,
     };
   },
   mutations,
