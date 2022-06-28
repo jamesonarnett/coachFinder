@@ -1,9 +1,9 @@
 // back for refactor soon... i swear....
-
+const KEY = process.env.VUE_APP_API_TOKEN;
 export default {
   async login(context, payload) {
     const response = await fetch(
-      'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyD2Rs01Ww3Kv7XiEFFYNYPtbZZwY63nDuM ',
+      `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${KEY}`,
       {
         method: 'POST',
         body: JSON.stringify({
@@ -29,7 +29,7 @@ export default {
   },
   async signup(context, payload) {
     const response = await fetch(
-      'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyD2Rs01Ww3Kv7XiEFFYNYPtbZZwY63nDuM ',
+      `https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=${KEY}`,
       {
         method: 'POST',
         body: JSON.stringify({
