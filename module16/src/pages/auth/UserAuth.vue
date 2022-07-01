@@ -60,15 +60,16 @@ export default {
   methods: {
     async submitForm() {
       this.formIsValid = true;
-      this.isLoading = true;
-
       if (
         this.email === '' ||
         !this.email.includes('@') ||
         this.password.length < 6
       ) {
         this.formIsValid = false;
+        return;
       }
+
+      this.isLoading = true;
 
       const actionPayload = {
         email: this.email,
@@ -81,9 +82,12 @@ export default {
         } else {
           await this.$store.dispatch('auth/signup', actionPayload);
         }
-      } catch (error) {
-        this.error = error.message || 'Failed to authenticate. Try again';
+        const redirectUrl = '/' + (this.$route.query.redirect || 'coaches');
+        this.$router.replace(redirectUrl);
+      } catch (err) {
+        this.error = err.message || 'Failed to authenticate, try later.';
       }
+
       this.isLoading = false;
     },
     switchAuthMode() {

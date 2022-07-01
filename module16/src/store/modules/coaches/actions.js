@@ -1,6 +1,6 @@
 export default {
   async registerCoach(context, data) {
-    const userId = context.rootGetters.userId;
+    const userId = context.rootGetters['auth/userId'];
     const coachData = {
       firstName: data.first,
       lastName: data.last,
@@ -9,7 +9,7 @@ export default {
       areas: data.areas,
     };
 
-    const token = context.rootGetters.token;
+    const token = context.rootGetters['auth/token'];
 
     const response = await fetch(
       `https://coachapp-9-default-rtdb.firebaseio.com/coaches/${userId}.json?auth=` +
