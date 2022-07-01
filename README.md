@@ -130,10 +130,20 @@ Vue - The Complete Guide - <a href="https://www.udemy.com/course/vuejs-2-the-com
   <li>Getters</li>
 </ul>
 
-# Module16 -- Coach Finder App
+# Module16, 17, and 18 -- Coach Finder App
 
 <ul>
-  <li></li>
+  <li>Routing</li>
+  <li>Using base componenets</li>
+  <li>Forms</li>
+  <li>Creating and Managing Coaches</li>
+  <li>Transitions</li>
+  <li>VueX and Authentication</li>
+</ul>
+
+# Module19 -- Composition API
+
+<ul>
   <li></li>
   <li></li>
 </ul>
