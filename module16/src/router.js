@@ -35,9 +35,9 @@ const router = createRouter({
 });
 
 router.beforeEach((to, _, next) => {
-  if (to.meta.requiresAuth && !store.getters.isAuthenticated) {
+  if (to.meta.requiresAuth && !store.getters['auth/isAuthenticated']) {
     next('/auth');
-  } else if (to.meta.requiresUnauth && store.getters.isAuthenticated) {
+  } else if (to.meta.requiresUnauth && store.getters['auth/isAuthenticated']) {
     next('/coaches');
   } else {
     next();
