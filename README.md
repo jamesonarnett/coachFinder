@@ -140,10 +140,3 @@ Vue - The Complete Guide - <a href="https://www.udemy.com/course/vuejs-2-the-com
   <li>Transitions</li>
   <li>VueX and Authentication</li>
 </ul>
-
-# Module19 -- Composition API
-
-<ul>
-  <li></li>
-  <li></li>
-</ul>
